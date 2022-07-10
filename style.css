@@ -1,0 +1,160 @@
+* {
+    font-family: "Arimo", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-image: url(images/bg.PNG);
+}
+
+
+
+.content {
+   max-width: 50%;
+    margin: auto;
+    margin-top: 20vh;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: -1px 2px 15px -2px #000000;
+    background-color: #fff;
+}
+
+.contentWide {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20vh;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: -1px 2px 15px -2px #000000;
+    background-color: #fff;
+}
+
+input {
+    margin-right: 0;
+}
+
+label {
+    width: 300px;
+    text-align: left;
+}
+
+input[type="text"]:hover,input[type="number"]:hover, input[type="password"]:hover {
+    background-color: rgba(159, 208, 68, 0.25);
+}
+
+input[type="submit"],input[type="button"], button {
+    background-color: #fff;
+    font-weight: 500;
+    font-size: large;
+    color: #9FD044;
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
+    margin: 10px 0;
+    border: solid 2px #9FD044;
+    border-radius: 5px;;
+}
+
+input[type="submit"]:hover,input[type="button"]:hover, button:hover {
+    background-color: #9FD044;
+    color: #fff;
+}
+
+ select {
+    font-size: large;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+form {
+    max-width: 80%;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgba(159, 208, 68, 0.5);
+    border-radius: 10px;
+    
+}
+
+table tr {
+    border-bottom: 1px solid rgba(128,128,128, 0.5);
+    margin-top: 15px;
+    
+}
+
+th, td {
+    padding: 15px;
+}
+
+
+.center {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+img .center {
+    margin-bottom: 50px;
+}
+
+.vert {
+    color: #9FD044;
+}
+
+.rouge {
+    color: red;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #9FD044;
+    border-radius: 10px;
+    min-height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.navItem {
+    padding: 0 15px;
+    color: #fff;
+    font-size: large;
+    transition: transform 0.5s;
+}
+
+.nav .navItem a {
+    color:#fff;
+}
+
+ .navItem:hover {
+    transform: scale(1.10);
+}
+
+
+.navItem:hover {
+    color: green;
+}
+
+.formLine {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.lone {
+    justify-content: center !important;
+}
+
+button a, .nav a {
+    text-decoration: none;
+    color: black;
+}
