@@ -168,10 +168,15 @@ button a,
     .content,
     .contentWide {
         max-width: 100%;
+        margin-top: 10vh;
     }
 
     .nav {
         flex-flow: row wrap;
+    }
+
+    .navItem {
+        padding: 15px;
     }
 
     .formLine {
