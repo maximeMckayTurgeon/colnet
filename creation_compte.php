@@ -73,7 +73,7 @@ $mdp = $_POST["mdp"];
 
 $createUser->execute();
 
-echo '<p class="vert">Votre compte à été créé, vous pouvez vous <a href="login.php">connecter</a>';
+echo '<p class="vert">Votre compte à été créé, vous pouvez vous <a href="index.php">connecter</a>';
 }
 
 ?>

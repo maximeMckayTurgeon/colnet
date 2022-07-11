@@ -19,7 +19,7 @@ include "header.html";
 
 <h2>Veuillez vous connecter</h2>
 
-<form method="post" action="login.php">
+<form method="post" action="index.php">
     <div class="formLine">
         <label for="nom" class="etiquette">Nom d'utilisateur: </label>
         <input type="text" id="nom" name="nom"><br><br>
