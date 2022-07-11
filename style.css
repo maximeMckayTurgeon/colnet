@@ -168,4 +168,12 @@ button a,
     .contentWide {
         max-width: 100%;
     }
+
+    .nav {
+        flex-flow: row wrap;
+    }
+
+    .formLine {
+        flex-flow: column nowrap;
+    }
 }
