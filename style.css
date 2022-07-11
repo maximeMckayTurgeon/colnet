@@ -10,10 +10,8 @@ body {
     background-image: url(images/bg.PNG);
 }
 
-
-
 .content {
-   max-width: 50%;
+    max-width: 50%;
     margin: auto;
     margin-top: 20vh;
     text-align: center;
@@ -43,29 +41,35 @@ label {
     text-align: left;
 }
 
-input[type="text"]:hover,input[type="number"]:hover, input[type="password"]:hover {
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover {
     background-color: rgba(159, 208, 68, 0.25);
 }
 
-input[type="submit"],input[type="button"], button {
+input[type="submit"],
+input[type="button"],
+button {
     background-color: #fff;
     font-weight: 500;
     font-size: large;
-    color: #9FD044;
+    color: #9fd044;
     cursor: pointer;
     border: none;
     padding: 5px 20px;
     margin: 10px 0;
-    border: solid 2px #9FD044;
-    border-radius: 5px;;
+    border: solid 2px #9fd044;
+    border-radius: 5px;
 }
 
-input[type="submit"]:hover,input[type="button"]:hover, button:hover {
-    background-color: #9FD044;
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover {
+    background-color: #9fd044;
     color: #fff;
 }
 
- select {
+select {
     font-size: large;
     border-radius: 5px;
     padding: 5px 10px;
@@ -81,19 +85,17 @@ table {
     border-collapse: collapse;
     background-color: rgba(159, 208, 68, 0.5);
     border-radius: 10px;
-    
 }
 
 table tr {
-    border-bottom: 1px solid rgba(128,128,128, 0.5);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
     margin-top: 15px;
-    
 }
 
-th, td {
+th,
+td {
     padding: 15px;
 }
-
 
 .center {
     margin: auto;
@@ -105,7 +107,7 @@ img .center {
 }
 
 .vert {
-    color: #9FD044;
+    color: #9fd044;
 }
 
 .rouge {
@@ -117,7 +119,7 @@ img .center {
     flex-flow: row nowrap;
     align-items: center;
     padding: 10px 20px;
-    background-color: #9FD044;
+    background-color: #9fd044;
     border-radius: 10px;
     min-height: 50px;
     text-align: center;
@@ -132,13 +134,12 @@ img .center {
 }
 
 .nav .navItem a {
-    color:#fff;
+    color: #fff;
 }
 
- .navItem:hover {
-    transform: scale(1.10);
+.navItem:hover {
+    transform: scale(1.1);
 }
-
 
 .navItem:hover {
     color: green;
@@ -154,7 +155,14 @@ img .center {
     justify-content: center !important;
 }
 
-button a, .nav a {
+button a,
+.nav a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 620px) {
+    .content {
+        max-width: 100%;
+    }
 }
