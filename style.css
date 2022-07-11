@@ -10,7 +10,6 @@ body {
     width: 100vw;
     background-image: url(images/bg.PNG);
     margin: 0;
-    overflow: hidden;
 }
 
 .content {
