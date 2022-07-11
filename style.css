@@ -165,4 +165,8 @@ button a,
     .content {
         max-width: 100%;
     }
+
+    .nav {
+        min-width: 100%;
+    }
 }
